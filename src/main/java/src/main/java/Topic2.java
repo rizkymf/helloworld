@@ -129,4 +129,8 @@ public class Topic2 {
         System.out.println(classVariable + intro());
     }
 
+    public static Integer tambah(Integer angka1, Integer angka2) {
+        return angka1 + angka2;
+    }
+
 }

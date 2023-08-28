@@ -57,11 +57,12 @@ public class Topic3 {
             System.out.println("Sabrina Cantik Banget ke-"+i);
         }
 
-        // Nested Loop
+        // Nested Loop: i0j0, i0j1, i0j2, i1j0, i1j1, i1j2, i2j0, i2j1, i2j2
         for(int i = 0; i < 2; i++) {
             System.out.println("outer");
             for(int j = 0; j < 3; j++) {
                 System.out.println("inner");
+                break;
 //				if(i==1 && j==1) return;
             }
         }
